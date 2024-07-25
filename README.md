@@ -4,7 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How to Run The Project
 
-To run the project in your localhost http://localhost:3000, you need to install the node modules with the help of `npm i` and after the installation of node modules succesfully simply run `npm run start`.
+To run the project in your localhost http://localhost:3000, you need to clone the Repository in your local computer.
+
+Now open the Cloned folder in Code Editor (VS Code) and then install the node modules with the help of `npm i` and after the installation of node modules succesfully simply run `npm run start`.
 
 ## Available Scripts
 
