@@ -1,0 +1,68 @@
+/* src/pages/Academics.css */
+.academics {
+  background-color: #f8f9fa;
+  border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.877);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 90%;
+    margin: 5rem auto;
+    padding: 2rem ;
+  }
+  
+  .academics-intro {
+    text-align: center;
+    
+  }
+  
+  .academics-intro .title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .academics-intro .subtitle {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.25rem;
+  }
+  
+  .academics-content {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 3rem;
+  }
+  
+  .academics-content .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .academics-content .curriculum,
+  .academics-content .methodologies,
+  .academics-content .resources {
+    margin-bottom: 40px;
+  }
+  
+  .academics-content h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .academics-content h3,
+  .academics-content h4 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .academics-content p,
+  .academics-content ul {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .academics-content ul {
+    padding-left: 20px;
+  }
+  
+  .academics-content ul li {
+    margin-bottom: 10px;
+  }  

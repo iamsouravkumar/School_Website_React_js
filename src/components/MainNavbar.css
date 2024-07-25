@@ -1,0 +1,67 @@
+/* MainNavbar.css */
+
+.navbar-nav {
+    text-align: center;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-nav .nav-item {
+    flex-grow: 1;
+}
+
+.navbar-nav .nav-link {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black !important;
+    transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: blue !important;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.navbar-nav .nav-item .fa-home {
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+
+.home-icon {
+    font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #343a40 !important;
+    box-shadow: 0 5px 15px black;
+    color: #f8f9fa !important;
+
+}
+
+.navbar.scrolled .navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar.scrolled .navbar-nav .nav-link:hover {
+    color: yellow !important;
+}
+
+.navbar.scrolled .navbar-toggler {
+    border: none !important;
+}
+
+.navbar.scrolled .navbar-toggler-icon {
+    background-color: white !important;
+}

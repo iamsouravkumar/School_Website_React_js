@@ -1,0 +1,94 @@
+/* src/pages/Home.css */
+.intro-container{
+  width: 100%;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 5px;
+}
+
+.introduction-section {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.877);
+  width: 90% ;
+  margin: 5rem auto;
+  border-radius: 15px;
+}
+
+.introduction-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.intro-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+@media screen (max-width:520px){
+  .intro-title {
+    font-size: 1rem;
+  }
+}
+
+.intro-text {
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+#carousel{
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.877);
+  border-radius: 5px;
+}
+
+#carousel img {
+  height: 600px;
+  width: auto;
+  border-radius: 5px;
+}
+
+.carousel-image {
+  width: 100%;
+  /* Ensure the image fits within the defined carousel width */
+}
+
+.quick-links-sec {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5rem 0;
+  background-color: aliceblue;
+  width: 90%;
+  margin: 4rem auto;
+}
+
+.quick-links-sec h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.quick-links-li {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.quick-links-li li {
+  margin: 0 15px;
+}
+
+.quick-links-li a {
+  color: black;
+  text-decoration: none;
+}
+
+.quick-links a:hover {
+  text-decoration: none;
+  color: yellow
+}
+
+
+@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css';

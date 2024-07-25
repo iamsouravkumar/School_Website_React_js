@@ -1,0 +1,79 @@
+.gallery-container {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 90%;
+  margin: 5rem auto;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.877);
+  background: #f8f9fa;
+  padding: 1rem 0;
+}
+
+#carousel2 {
+  width: 98%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.877);
+  border-radius: 5px;
+}
+
+.carousel-image {
+  height: 500px;
+  border-radius: 5px;
+}
+
+.gallery-container h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.section-title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.introduction-section {
+  background-color: beige;
+  text-align: center;
+}
+
+.intro-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.intro-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.intro-text {
+  font-size: 1.25rem;
+}
+
+.carousel-section {
+  margin: 0 auto;
+}
+
+.carousel-image {
+  width: 100%;
+  /* Ensure the image fits within the defined carousel width */
+}
+
+.video-container {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 3rem auto;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.877);
+  background: #f8f9fa;
+  padding: 0;
+  width: 98%;
+}
+
+.video-caption {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+/* Importing animate.css for animations */
+@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css';

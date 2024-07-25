@@ -1,0 +1,32 @@
+/* LogoNavbar.css */
+.logo-navbar {
+    background-color: rgba(100, 148, 237, 0.849);
+    position: relative; /* Ensure it does not affect the positioning of MainNavbar */
+}
+
+.navbar{
+    font-family: monospace;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-brand-name {
+    letter-spacing: 4px;
+    font-size: 2.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px; /* Add space between the logo and the brand name */
+}
+
+@media (min-width: 520) {
+    .navbar{
+        padding: 0 2rem;
+    }
+    .navbar-brand-name{
+        letter-spacing: 0;
+        font-size: 1rem;
+    }
+    .navbar-brand {
+        font-size: 0;
+    }
+}
