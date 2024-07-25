@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## How to Run The Project
+
+To run the project in your localhost http://localhost:3000, you need to install the node modules with the help of `npm i` and after the installation of node modules succesfully simply run `npm run start`.
+
 ## Available Scripts
 
 In the project directory, you can run:
